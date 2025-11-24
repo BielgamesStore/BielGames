@@ -7,45 +7,89 @@ body {
     text-align: center;
 }
 
+/* HEADER */
 header {
     padding: 25px;
 }
 
 .logo {
-    width: 150px;
+    width: 140px;
     margin-bottom: 10px;
 }
 
-.menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 20px;
-    padding: 20px;
+.sub {
+    margin-top: 5px;
+    font-size: 16px;
 }
 
-.box {
+/* CAIXAS RETANGULARES DOS LINKS */
+.links-retangulares {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.link-box {
     background: #ffffff22;
     padding: 18px;
+    margin: 12px 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-box:hover {
+    background: #ffffff44;
+}
+
+.icon {
+    width: 35px;
+    filter: brightness(0) invert(1); /* ícone branco */
+}
+
+/* TÍTULO */
+.titulo-servicos {
+    margin-top: 25px;
+}
+
+/* CATÁLOGO */
+.catalogo {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.serv-item {
+    background: #ffffff22;
+    margin: 12px 0;
+    padding: 15px;
     border-radius: 12px;
-    text-decoration: none;
-    color: white;
-    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
-.box img {
-    width: 70px;
+.serv-item:hover {
+    background: #ffffff44;
 }
 
-
-.box:hover {
-    background: #ffffff40;
-    transform: scale(1.04);
+/* QR CODE */
+.qr-container {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.voltar {
-    display: inline-block;
-    color: white;
-    margin: 15px;
-    text-decoration: none;
+.qr-img {
+    width: 220px;
+    border-radius: 12px;
+}
+
+.pix-chav {
+    color: #000;
+    margin-top: 10px;
     font-size: 18px;
 }
