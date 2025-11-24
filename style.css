@@ -8,19 +8,45 @@ body {
 }
 
 /* HEADER */
-header {
-    padding: 25px;
+/* HEADER MODERNO (ESTILO APP) */
+.header-moderno {
+    background: #d10000; /* tom um pouco mais claro que o fundo */
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 50px;
+
+    /* CURVA MODERNA */
+    border-bottom-left-radius: 40% 15%;
+    border-bottom-right-radius: 40% 15%;
 }
 
-.logo {
-    width: 140px;
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-header {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ffffff55;
     margin-bottom: 10px;
 }
 
-.sub {
-    margin-top: 5px;
-    font-size: 16px;
+.header-titulo {
+    margin: 5px 0 0 0;
+    font-size: 28px;
+    font-weight: bold;
 }
+
+.header-sub {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
 
 /* CAIXAS RETANGULARES DOS LINKS */
 .links-retangulares {
